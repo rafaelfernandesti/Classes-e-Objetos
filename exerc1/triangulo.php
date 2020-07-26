@@ -1,6 +1,8 @@
 <?php
-    class triangulo{
+    class Triangulo{
     private $r;
+    private $a;
+    private $b;
     public function __construct($argBase=0, $argAlt=0){
         $this->b = $argBase;
         $this->a = $argAlt;
